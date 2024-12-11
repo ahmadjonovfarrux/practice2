@@ -1,0 +1,383 @@
+@import "./global.css";
+@import "./root.css";
+
+.hero {
+  background-image: url(../images/bg-pattern.jpg);
+  background-repeat: no-repeat;
+}
+.hero-container {
+  padding-top: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  max-width: 57rem;
+  width: 100%;
+}
+.hero-title {
+  font-family: "Martian Mono";
+  font-weight: 700;
+  font-size: var(--large-h1-fs);
+  line-height: var(--large-h1-lh);
+  letter-spacing: var(--large-text-ls);
+  margin-bottom: 2.4rem;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#fea36f, #062630);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-description {
+  font-weight: 400;
+  font-size: var(--text-present5-fs);
+  line-height: var(--text-present5-lh);
+  margin-bottom: 3.2rem;
+}
+.btn {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: 1rem 0;
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--text-present6-fs);
+  line-height: var(--text-present6-lh);
+  background-color: var(--whitef5);
+  border-radius: var(--radius8);
+  border: 2px solid var(--black06);
+}
+.hero-avatars {
+  width: 38.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.avatars-img {
+  width: 11rem;
+  height: 4rem;
+}
+
+.avatars-text {
+  font-family: "Martian Mono";
+  font-size: var(--text-present7-fs);
+  line-height: var(--text-present7-lh);
+  letter-spacing: var(--text-ls);
+  color: var(--grey38);
+}
+.hero-img {
+  width: 53.6rem;
+  height: 60.6rem;
+  margin-bottom: 8rem;
+}
+
+/* Planning section */
+.plan {
+  padding-top: 11rem;
+  padding-bottom: 3rem;
+}
+
+.plan-container {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.planning-img {
+  width: 56rem;
+  height: 52rem;
+  border-radius: var(--radius8);
+}
+
+.planing-content {
+  max-width: 53rem;
+  width: 100%;
+}
+
+.planing-title {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+  letter-spacing: var(--large-text-ls);
+  margin-bottom: 3.4rem;
+}
+
+.planningitem {
+  width: 43.1rem;
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  padding-bottom: 2.4rem;
+}
+
+.planning-description {
+  font-weight: 400;
+  font-size: var(--text-present5-fs);
+  line-height: var(--text-present5-lh);
+}
+
+/* Club section */
+.club {
+  padding-top: 9rem;
+  position: relative;
+  padding-bottom: 5rem;
+}
+.club-container {
+  display: flex;
+  align-items: center;
+}
+
+.club-tech-icons {
+  position: absolute;
+  margin-left: 45rem;
+  margin-top: 35rem;
+}
+.club-content {
+  max-width: 53rem;
+  width: 100%;
+}
+.club-title {
+  font-weight: 600;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+}
+.title-span {
+  background-image: url(../images/pattern-circle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.club-description {
+  font-weight: 400;
+  font-size: var(--text-present5-fs);
+  line-height: var(--text-present5-lh);
+  margin-top: 2.4rem;
+}
+.club-img {
+  width: 56rem;
+  height: 52rem;
+}
+
+/* Journey section */
+.journey {
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+  background-image: var(--colors-neutral-50, #faf5f3),
+    url(../images/bg-pattern.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.journey-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.journey-title {
+  max-width: 55rem;
+  font-family: "Martian Mono";
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+  letter-spacing: 4%;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.journey-tickets {
+  display: flex;
+  gap: 3rem;
+}
+.ticket {
+  width: 22.6rem;
+  height: 11rem;
+  background-image: url(../images/pattern-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: top right 2rem;
+}
+.ticket-img {
+  width: 4rem;
+  height: 4rem;
+}
+.ticket-description {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--text-present6-fs);
+  line-height: var(--text-present6-lh);
+}
+/* Peymant section */
+.memebership {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-title {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+  letter-spacing: var(--large-text-ls);
+}
+
+.option-group {
+  width: 97rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  margin-top: 6.4rem;
+  margin-bottom: 12rem;
+}
+
+.membership-peymant {
+  width: 28.6rem;
+  height: 35.8rem;
+  border: 1px solid var(--whiteE6);
+  padding: 2.4rem;
+}
+
+.membership-peymant-title {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--small-h3-fs);
+  line-height: var(--small-h3-lh);
+  letter-spacing: var(--text-ls);
+  margin-bottom: 2.4rem;
+}
+.membership-number {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--small-h2-fs);
+  line-height: var(--small-h2-lh);
+  letter-spacing: var(--text-ls);
+  margin-bottom: 4.9rem;
+}
+.membership-span {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: var(--text-present5-fs);
+  line-height: var(--text-present5-lh);
+  color: var(--grey38);
+}
+.membership-hr {
+  width: 23.8rem;
+  height: 0.1rem;
+  margin: 2.4rem 0;
+}
+.membership-time {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-weight: 400;
+  font-size: var(--text-present5-fs);
+  line-height: var(--text-present5-lh);
+  color: var(--grey38);
+  margin-bottom: 1.6rem;
+}
+
+.membership-btn {
+  width: 23.8rem;
+  margin-top: 1.6rem;
+}
+.pro-peymant {
+  width: 35rem;
+  height: 39rem;
+  background-image: url(../images/pattern-glow.svg);
+  background-repeat: no-repeat;
+}
+
+.membership-content {
+  max-width: 97rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.membership-img {
+  margin-bottom: 3.2rem;
+}
+.membership-description {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--small-h2-fs);
+  line-height: var(--small-h2-lh);
+  letter-spacing: var(--text-ls);
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+.person-name {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: var(--text-present5-fs);
+  line-height: var(--text-present5-lh);
+}
+
+/* Footer section */
+.footer {
+  background-color: var(--black06);
+  color: var(--whitef5);
+  padding-top: 8rem;
+}
+.footer-title {
+  max-width: 68.5rem;
+  width: 100%;
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+  text-align: center;
+  margin-left: 35rem;
+  margin-bottom: 4rem;
+}
+
+.footer-btn {
+  background-color: var(--black06);
+  color: var(--whitef5);
+  border: 2px solid var(--whitef5);
+  margin-left: 50rem;
+  margin-bottom: 2.4rem;
+}
+.footer-span {
+}
+.span-img {
+}
+.hero-avatars {
+  margin-left: 50rem;
+  margin-bottom: 6.4rem;
+}
+.avatars-img {
+}
+.avatar-icon-box {
+}
+.stars-img {
+}
+.avatars-text {
+}
+.social-links {
+  border: none;
+  border-top: 1px solid var(--grey38);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-social-info {
+  margin-top: 2.4rem;
+  margin-bottom: 2.9rem;
+}
+.links-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}

@@ -1,0 +1,52 @@
+@import "./normalize.css";
+:root {
+  --black06: #062630;
+  --grey38: #385159;
+  --whiteE6: #e6e1df;
+  --whitef5: #faf5f3;
+  --white: #ffffff;
+  --light-salmon500: #fea36f;
+  --light-salmon100: #ffe2d1;
+  --light-salmon50: #fff5ef;
+  /*  */
+  --large-text-ls: -0.2rem;
+  --text-ls: -0.1rem;
+  /* Large h1 */
+  --large-h1-fs: 6.2rem;
+  --large-h1-lh: 1.2;
+  /* Small h1 */
+  --small-h1-fs: 3.8rem;
+  --small-h1-lh: 1.2;
+  /* Large h2 */
+  --large-h2-fs: 5rem;
+  --large-h2-lh: 1.3;
+  /* Small h2 */
+  --small-h2-fs: 3.4rem;
+  --small-lh-lh: 1.3;
+  /* Large h3 */
+  --large-h3-fs: 3.4rem;
+  --large-h3-lh: 1.3;
+  /* Small h3 */
+  --small-h3-fs: 2.4rem;
+  --small-h3-lh: 1.1;
+
+  --text-present5-fs: 2rem;
+  --text-present5-lh: 1.4;
+
+  --text-present6-fs: 1.6rem;
+  --text-present6-lh: 1.3;
+
+  --text-present7-fs: 1.4rem;
+  --text-present7-lh: 1.2;
+
+  /* Radius */
+  --radius4: 0.4rem;
+  --radius6: 0.6rem;
+  --radius8: 0.8rem;
+  --radius10: 1rem;
+  --radius12: 1.2rem;
+  --radius16: 1.6rem;
+  --radius20: 2rem;
+  --radius24: 2.4rem;
+  --radiusfull: 99.9rem;
+}
