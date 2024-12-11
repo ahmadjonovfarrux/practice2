@@ -23,7 +23,6 @@
   line-height: var(--large-h1-lh);
   letter-spacing: var(--large-text-ls);
   margin-bottom: 2.4rem;
-  font-size: 72px;
   background: -webkit-linear-gradient(#fea36f, #062630);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -213,6 +212,9 @@
 .memebership {
   padding-top: 12rem;
   padding-bottom: 12rem;
+  background-image: linear-gradient(var(--colors-neutral-50, #9cc9da)),
+    url(../images/bg-pattern.jpg);
+  background-repeat: no-repeat;
 }
 
 .membership-container {
@@ -293,7 +295,9 @@
 .pro-peymant {
   width: 35rem;
   height: 39rem;
-  background-image: url(../images/pattern-glow.svg);
+  background-image: linear-gradient(var(--colors-neutral-50, #e6e1df)),
+    url(../images/pattern-glow.svg);
+
   background-repeat: no-repeat;
 }
 
@@ -348,22 +352,12 @@
   margin-left: 50rem;
   margin-bottom: 2.4rem;
 }
-.footer-span {
-}
-.span-img {
-}
+
 .hero-avatars {
   margin-left: 50rem;
   margin-bottom: 6.4rem;
 }
-.avatars-img {
-}
-.avatar-icon-box {
-}
-.stars-img {
-}
-.avatars-text {
-}
+
 .social-links {
   border: none;
   border-top: 1px solid var(--grey38);
