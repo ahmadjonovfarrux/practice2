@@ -295,10 +295,14 @@
 .pro-peymant {
   width: 35rem;
   height: 39rem;
-  background-image: linear-gradient(var(--colors-neutral-50, #e6e1df)),
-    url(../images/pattern-glow.svg);
-
+  /* background-image: linear-gradient(var(--colors-neutral-50, #e6e1df)),
+    url(../images/pattern-glow.svg); */
+  background-color: #faf5f3;
   background-repeat: no-repeat;
+}
+
+.pro-btn {
+  width: 30.2rem;
 }
 
 .membership-content {
